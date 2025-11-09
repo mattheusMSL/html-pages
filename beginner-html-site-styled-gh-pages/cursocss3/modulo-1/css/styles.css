@@ -1,0 +1,203 @@
+/* *{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: blue;
+  font-size: 50px;
+}
+
+p{
+  color: green;
+  font-size: 12px;
+}
+
+input[type="text"]{
+  width: 200px;
+  background-color: #ccc;
+  border: none;
+  height: 40px;
+}
+
+input[type="email"]{
+  width: 200px;
+  background-color: #ccc;
+  border: none;
+  height: 40px;
+}
+
+input[type="submit"]{
+  width: 50px;
+  background-color: green;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  color: #FFF;
+
+
+}
+
+/* h1{
+  color:blue;
+  font-size: 60px;
+  font-family: tahoma;
+} */ 
+
+/* Agrupamento de seletores */
+
+/* h1, h2 , p{
+  color: red;
+  text-align: center;
+} */
+
+/* .texto-principal {
+  color: red;
+  text-align: center;
+}
+.fundo-principal{
+  padding: 20px;
+  background-color:green;
+}
+
+#conteudo{
+  min-width: 500px;
+  min-height: 20px;
+  background-color: green;
+  padding: 20px;
+  color: #fff;
+} */
+
+*{
+  /* box-sizing: border-box; */
+}
+
+/* #conteudo{
+  background-color: red;
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: -10px 10px 30px;
+} */
+
+/* #content{
+  background-color:red;
+  width:400px;
+  padding:10px 25px 10px 25px;
+  height: 68px;
+  box-sizing: border-box;
+  overflow:auto;
+  opacity: 0.8;
+} */
+
+/* #bloco{
+  background-color:green;
+  width: 350px;
+  height: 150px;
+  border-radius:50px 1px 50px 1px;
+} */
+/* *{
+  font-size: 100%;
+} */
+
+/* p{
+  font-family: times, "Times New Roman", sefir;
+  font-variant:small-caps; 
+  font-weight: bold; 
+  font-style: italic;
+  font-size: 2.5em;
+} */
+
+/* @font-face {
+  font-family: open_sans;
+  src: url(opensans-regular-webfont.woff);
+} */
+
+/* p{
+  font-family: 'Noto Sans', sans-serif;
+} */
+
+/* #cores{
+  width: 200px;
+  height: 200px;
+  background-color:hsla(20,100%,59%, 0.8); 
+   background: linear-gradient(130deg, red,blue,green);
+  background: radial-gradient(red,green);
+} */
+/* 
+#base{
+  background-color: green;
+  width:600px;
+  height:600px;
+}
+
+#esquerda{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  float:left;
+}
+
+#direita{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  float:right;
+} */
+
+/* #conteudo{
+  width: 600px;
+  height:1200px;
+  background-color: red;
+  position:relative;
+}
+#texto{
+  width: 500px;
+  background-color: green;
+  position: fixed;
+  position:absolute;
+   left:0;
+   top:0;
+} */
+
+/* 20 border e outline */
+/* #exemplo{
+  border-style:solid;
+  border-width: 5px;
+  border-color: red; 
+  border-bottom: solid 5px red; 
+  outline:dotted 5px green;
+} */
+
+/* 21- transition */
+
+/* #exemplo{
+  width:200px;
+  background-color: red;
+  height:200px;
+  transition: width 1s linear 1ms;
+   transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 2s;
+} */
+/* 
+#exemplo:hover{
+  width: 350px;
+  height: 350px;
+  background-color: green;
+} */
+
+/* *{
+  margin:0;
+  padding: 0;
+}
+nav{width:100vw; height: 80px; background-color: blue;}
+.banner{
+  width: 100vw;
+  height: calc(100vh - 80px);
+  background-color: red;
+
+} */
+
+#box{margin: 40px 0 0 60px; filter: blur(4px); background-color: rgba(255, 0, 0, 0.5); width: 400px; height: 200px;}

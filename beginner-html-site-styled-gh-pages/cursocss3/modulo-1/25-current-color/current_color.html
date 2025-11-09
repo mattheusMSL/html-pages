@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Current Color</title>
+  <style>
+    body{
+      background-color: color;
+    }
+    button{
+      background-color: white;
+      color:red;
+      width: 100px;
+      height: 50px;
+      border: 2px solid currentColor;
+      box-shadow: 5px 10px 20px #000;
+    }
+    button:hover{
+      background-color: lightblue;
+    }
+    button:active{
+      background-color: lightblue;
+      transform: translateY(2px);
+    }
+  </style>
+</head>
+<body>
+  <button> Cadastrar </button>
+</body>
+</html>

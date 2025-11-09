@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> tebelas </title>
+  <style>
+    table, th, td{
+      border: 1px solid #000;
+    }
+    td, th{
+      padding: 6px;
+    }
+    .nome{
+      background-color: red;
+    }
+    .email{
+      background-color: green;
+    }
+    .telefone{
+      background-color: blue;
+    }
+    .cargo{
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1> Tabelas </h1>
+  <table>
+    <caption> Cadastro de Clientes </caption>
+
+    <colgroup>
+      <col class="nome">
+      <col class="email">
+      <col class="telefone">
+      <col class="cargo">
+    </colgroup>
+    <thead>
+    <tr>
+      <th> Nome: </th>
+      <th> Email: </th>
+      <th> Telefone: </th>
+      <th> Cargo: </th>
+    </tr>
+  </thead>
+  <tbody> 
+    <tr>
+      <td> Matheus </td>
+      <td> matheus@email.com </td>
+      <td> (45)999392797 </td>
+      <td rowspan="2"> Desenvolvedor Web </td>
+    </tr>
+    <tr>
+      <td> Sofia </td>
+      <td> sofia@email.com </td>
+      <td> (45) 99920454 </td>
+    </tr>
+  </tbody>
+  <tfoot> 
+    <tr>
+      <td colspan="4" style="text-align: center;"> total : 2</td>
+    </tr>
+  </tfoot>
+  </table>
+  
+</body>
+</html>

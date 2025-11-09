@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+  <form action="cadastro.php" method="POST" id="form-cadastro">
+    <fieldset> 
+    <legend> Informações Obrigatórias 
+    </legend>
+     Nome: <br> <input type="text" name="nome" required autofocus maxlength="10"> <br>
+     email: <br> <input type="email" name="email" autocomplete="off" required ><br>
+     Senha: <br> <input type="password" name="senha" required placeholder="Senha" > <br> <br>
+     Imagem: <br>
+     <input type="file" name="imagem"> <br>
+     <input type="hidden" name="id"><br>
+     Url: <br>
+     <input type="url" name="site"><br><br>
+     Search: <br>
+     <input type="search" name="pesquisa"><br><br>
+    Telefone: <br>
+    <input type="tel" name="telefone"> <br><br>
+    Data: <br>
+    <input type="date" name="data" min="2002-07-21" max="2002-07-21"> <br><br>
+    Hora: <br>
+    <input type="time" name="hora"> <br> <br>
+    Mês e ano: <br>
+    <input type="month" name="mes-ano"> <br> <br>
+    Semana: <br>
+    <input type="week" name="semana"> <br> <br>
+    Data e hora: <br>
+    <input type="datetime-local" name="data-e-hora"> <br> <br>
+    Mensagem: <br>
+    <textarea name="mensagem" cols="30" rows="10" spellcheck="true"></textarea> <br> <br>
+    <button type="button">Botão</button> <br> <br>
+
+    <select name="veiculo" id="">
+      <optgroup label="Carros">
+      <option value="BMW">BMW</option>
+      <option value="AUDI" selected >AUDI</option>
+      <option value="PORSCHE">PORSCHE</option>
+    </optgroup>
+    <optgroup label="motos">
+      <option value="BMW">BMW</option>
+      <option value="sla">sla</option>
+    </optgroup>
+    </select> <br> <br>
+    Escolha um curso: <br>
+    <input type="cursos" list="lista-cursos">
+    <datalist id="lista-cursos">
+      <option value="Ciência da computação">
+      <option value="Engenharia de Software">
+    </datalist> <br> <br>
+    time: <br> <input type="radio" name="time" value="Vasco"> Vasco <br>
+     <input type="radio" name="time" value="Sla"> sla <br> 
+     Cores: <br>
+       <input type="checkbox" name="cores" value="verde"> Verde <br>
+       <input type="checkbox" name="cores" value="vermelho"> Vermelho <br>
+       <input type="checkbox" name="cores" value="violeta" checked> Violeta <br>
+       <input type="checkbox" name="cores" value="verde limao"> Verde Limão <br> <br>
+    Quantidade: <br>
+     <input type="number" name="Quantidade" min="0" max="500"> <br>
+     <input type="range" name="Quantidade" min="0" max="500"> <br>
+     Cor: <br>
+     <input type="color" name="cor"> <br>
+    <input type="button" name="btn-enviar" value="Enviar">  
+  </fieldset>
+  </form>
+  <input type="text" name="nome2" form="form-cadastro">
+  <!-- <input type="submit" formtarget="_blank" formmethoed="POST" formaction="cadastro.php" value="Cadastrar" formenctype="application/x-www-form-urlencoded"> -->
+</body>
+</html>

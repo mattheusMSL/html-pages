@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Margin e Padding </title>
+  <style>
+    #exemplo{
+      background-color: green;
+      color: #fff;
+      width: 500px;
+      padding: 10px 20px 30px 30px;
+    }
+    #exemplo2{
+      background-color: red;
+      color: #fff;
+      width: 500px;
+      margin: 20px 30px 20px 40px;
+      padding: 0px;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let body = document.querySelector('body');
+    let division = document.createElement('div');
+    let secondDivision = document.createElement('div');
+
+    division.setAttribute('id', 'exemplo');
+    secondDivision.setAttribute('id', 'exemplo2');
+
+    const text = document.createElement('p');
+    text.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, provident incidunt, quidem ad, reprehenderit quasi eveniet quas dicta praesentium iure excepturi? Est consequatur tempora velit recusandae maiores deleniti temporibus cum.";
+
+    const secondText = document.createElement('p');
+    secondText.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, provident incidunt, quidem ad, reprehenderit quasi eveniet quas dicta praesentium iure excepturi? Est consequatur tempora velit recusandae maiores deleniti temporibus cum.";
+  
+    body.appendChild(division);
+    body.appendChild(secondDivision);
+
+    secondDivision.appendChild(secondText);
+    division.appendChild(text);
+ 
+    // console.log(division, secondDivision);
+  </script>
+</body>
+</html>
